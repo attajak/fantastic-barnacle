@@ -16,7 +16,7 @@ test:
 
 pages:
   script:
-    - hugo --gc --minify
+    - hugo --gc --minify --logLevel info
   artifacts:
     paths:
       - public

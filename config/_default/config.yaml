@@ -1,4 +1,4 @@
-baseURL: https://hbs-skeleton.netlify.app/
+baseURL: /fantastic-barnacle
 title: Hugo Bootstrap Skeleton
 copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
 defaultContentLanguage: en
@@ -33,7 +33,7 @@ permalinks:
 module:
   imports:
     - path: github.com/razonyang/hugo-theme-bootstrap
-#   proxy: https://goproxy.cn
+  proxy: https://goproxy.cn
 
 # services:
 #   disqus:
